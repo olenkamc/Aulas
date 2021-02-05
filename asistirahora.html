@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- alert javascript -->
+    <script type="text/javascript" src="js/peliculaselecta.js"></script>
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#serie">Series</a>
+                <a href="#pelicula">Peliculas</a>
+                <a href="#documental">Documentales</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-main">
+            <div class="container">
+                <div class="pelicula-info">
+                    <div class="info-content">
+                        <p><span class="content-weight">HOUSE OF CARDS</span></p>
+                        <P><span  class="content-weight">Duración:</span> 90min</P>
+                        <P><span  class="content-weight">Puntuación:</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></P>
+                    </div>
+                </div>
+                <!-- division -->
+                <div class="division-main">
+                    <hr id="division">
+                    <p class="titulo " >Reproducción</p>
+                </div>
+                <!-- video -->
+                <div class="overlay">
+                    <div class="popup">
+                        <div class="trailervideo">
+                            <video src="video/House of Cards.mp4" controls="true"></video>
+                        </div>
+                    </div>
+                </div>
+                <!-- Iniciar pelicula -->
+                <div class="botones"></div>
+                    <button role="button" class="boton" id="trailer"> <!-- boton = popup -->
+                        <i class="far fa-comment-dots"></i>
+                        <a class="quitar" id="trailer-item" href="#" onclick="abrir()">Dejar comentario...</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- carusel -->
+<!-- <div class="carousel-peliculas">
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-pelicula" src="img/mini1.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini2.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini3.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini4.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini5.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini6.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini7.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini8.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini9.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/mini10.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+</div>     -->
+
+    <script src="https://kit.fontawesome.com/56a202d180.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js" ></script>
+</body>
+</html>

@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- alert javascript -->
+    <script type="text/javascript" src="js/peliculaselecta.js"></script>
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -11,30 +22,159 @@
         <div class="container">
             <h2 class="logo">NETFLIX</h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Series</a>
-                <a href="#">Peliculas</a>
-                <a href="#">Documentales</a>
+                <a href="index.html">Inicio</a>
+                <a href="#serie">Series</a>
+                <a href="#pelicula">Peliculas</a>
+                <a href="#documental">Documentales</a>
             </nav>
         </div>
     </header>
 
-    <main>
+    <main id="peliculaprincipal">
         <div class="pelicula-principal">
             <div class="container">
                 <h3 class="titulo" >HOUSE OF CARDS</h3>
                 <p class="descripcion">Nada puede impedir al politico sin escrupulo Frank Underwood conquistar Washington. Asista ahora a la nueva temporada de House Cards que esta impredecible.</p>
                 <div class="botones">
                     <button role="button" class="boton">
-                        ASISTIR AHORA
+                        <i class="fas fa-play" href=""></i>
+                        <a  class="quitar" href="asistirahora.html" onclick="mas()">ASISTIR AHORA</a> 
                     </button>
+
                     <button role="button" class="boton">
-                        MÁS INFORMACIÓN
+                        <i class="fas fa-info-circle"></i>
+                        <a class="quitar" href="masinformacion.html">MÁS INFORMACIÓN</a>
                     </button>
+
                 </div>
             </div>
         </div>
     </main>
+<!-- carusel peliculas -->
+    <div id="pelicula" class="carousel-peliculas">
+        <div class="container edition">
+            <h2 class="titulo">PELICULAS</h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini10.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini11.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini12.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-pelicula" src="img/peliculas/mini13.jpg" alt="" srcset="">
+            </div>
+        </div>
 
+    </div>
+
+<!-- carusel series -->
+<div id="serie" class="carousel-peliculas">
+    <div class="container edition">
+        <h2 class="titulo">SERIES</h2>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie1-1.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie8.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie2.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie5-1.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie9.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie6.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie7-1.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie3.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/series/serie4.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+</div>
+
+<!-- carusel documentales -->
+<div id="documental" class="carousel-peliculas">
+    <div class="container edition">
+        <h2 class="titulo">DOCUMENTALES</h2>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-pelicula" src="img/documentales/docu1.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/documentales/docu2.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/documentales/docu3.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/documentales/docu4.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/documentales/docu5.jpg" alt="" srcset="">
+        </div>
+        <div class="item">
+            <img class="box-pelicula" src="img/documentales/docu6.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+</div>
+
+<div class="botones">
+    <button role="button" class="boton" id="trailer">
+        <i class="fas fa-caret-down"></i>
+        <a  class="quitar" id="trailer-item" href="" onclick="mas()"> VER MAS </a> 
+    </button>
+
+
+
+    <script src="https://kit.fontawesome.com/56a202d180.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js" ></script>
 </body>
 </html>

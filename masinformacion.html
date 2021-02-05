@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- alert javascript -->
+    <script type="text/javascript" src="js/peliculaselecta.js"></script>
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#serie">Series</a>
+                <a href="#pelicula">Peliculas</a>
+                <a href="#documental">Documentales</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-main">
+            <div class="container">
+                <div class="pelicula-info">
+                    <div class="poster">
+                        <img src="img/house_of_cards1.jpg" alt="">
+                    </div>
+                    <div class="info-content">
+                        <p><span class="content-weight">HOUSE OF CARDS</span></p>
+                        <P><span  class="content-weight">Año:</span> 2013</P>
+                        <p><span  class="content-weight">Género:</span> Thriller, Drama, Política</p>
+                        <p><span  class="content-weight">Sinópsis:</span></p>
+                        <p>El congresista Francis "Frank" Underwood mustra su pragmatismo despiadado matando, con sus propias manos, a un perro que agoniza. Mientras, explica a la audiencia cómo hay momentos en que requerimos a alguien para hacer las cosas desagradables pero necesarias. A lo largo de este tema, seguimos a Underwood, un congresista demócrata de Carolina del Sur y líder de minoría. Después de asegurar la elección del presidente Garrett Walker para conseguir el nombramiento a Secretario de Estado, Underwood está devastado al saber que lo están pasando por alto. La Jefa de Gabinete Linda Vásquez le dice a Underwood que el presidente quiere que él promueva su agenda en el Congreso y no cumplirá con su acuerdo. Underwood, rápidamente gana el control de su ira y oculta su decepción para presentarse como un útil teniente al Presidente y su agenda. En realidad, Underwood comienza un elaborado plan a espaldas del Presidente, con el objetivo final de ganar poder para sí mismo. La esposa de Frank, Claire, dirige una ONG, la Iniciativa de Agua Limpia ("CWI" por sus siglas en inglés), pero sus intenciones no se detallan. Ella parece usar su caridad para cultivar su propio poder e influencia, pero su propósito permanece desconocido. Deseosa de estar en el escenario internacional, decide cambiar su organización a otra que apoya la excavación internacional de pozos para proveer agua limpia. Esta decisión encuentra grandes recelos por su gerente de oficina. Claire le ordena despedir a empleados, cortando el personal a la mitad. Al final de la semana, ella se registra para preguntar cómo fue el proceso y luego informa a la gerente que también será despedida. Desde el principio se deja muy claro que Claire comparte el pragmatismo despiadado de su marido y su deseo de poder.</p>
+                    </div>
+                </div>
+                <!-- division -->
+                <div class="division-main">
+                    <hr id="division">
+                    <p class="titulo " >TRAILER</p>
+                </div>
+                <!-- video -->
+                <div class="overlay">
+                    <div class="popup">
+                        <div class="trailervideo">
+                            <video src="video/House of Cards.mp4" controls="true"></video>
+                        </div>
+                    </div>
+                </div>
+                <!-- Iniciar pelicula -->
+                <div class="botones"></div>
+                    <button role="button" class="boton" id="trailer"> <!-- boton = popup -->
+                        <i class="fas fa-film"></i>
+                        <a class="quitar" id="trailer-item" href="asistirahora.html" onclick="mas()">Ver Pelicula</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/56a202d180.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js" ></script>
+</body>
+</html>
